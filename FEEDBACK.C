@@ -37,7 +37,7 @@ int main()
     printf("file opening failed\n");
     return 0;
   }
-  while((ch=fgetc(fp))!=EOF);
+  while((ch=fgetc(fp))!=EOF)
   {
     printf("%c",ch);
    }
